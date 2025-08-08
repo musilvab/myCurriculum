@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    font-family: 'Inter Tight', 'Times New Roman';
+
+    
+}
+
+.cabecalho {
+    padding: 2% 4%;
+    margin-bottom: 2.5em;
+}
+
+.lista_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+ul {
+    list-style: none;
+}
+
+.botao_contato {
+    padding: 10px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.principal {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.portifolio_titulo {
+    font-size: 6em;
+    font-weight: bold;
+
+    line-height: 1em;
+
+    margin-bottom: 0.5em;
+}
+
+.portifolio_titulo span {
+    color: #a8a8a8;
+}
+
+.botao_contato--principal {
+    background-color: black;
+    color: white;
+
+    padding: 22px 50px;
+    font-size: 1.3em;
+
+    border-radius: 45px;
+    border: black;
+}
+
+.lista_contato {
+    display: flex;
+    justify-content: center;
+}
+
+.lista_contato--item {
+    margin: 35px;
+}
+
+.lista_contato--item a {
+    list-style: none;
+
+    color: black;
+    font-weight: bold;
+}
+
+.sobre-mim {
+    margin-top: 5em;
+}
+
+.sobre-mim_container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sobre-mim_titulo, .academico_titulo {
+    font-size: 3em;
+    text-align: justify;
+    margin-bottom: 0.5em;
+}
+
+.sobre-mim_texto {
+    text-align: justify;
+    margin-bottom: 0.5em;
+}
+
+img {
+    margin: 2em 0;
+    width: 100%;
+    border-radius: 30px;
+    height: 30%;
+}
+
+.academico {
+    text-align: justify;
+}
+
+.lista_formacao {
+    width: 100%;
+}
+
+.lista_formacao--item {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+
+    margin-bottom: 2.7em;
+}
+
+.formacao_container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    width: 70%;
+}
+
+.formacao_titulo {
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+.lista_formacao--item p {
+    display: flex;
+    align-items: center;
+
+    font-size: 1em;
+}
+
+.rodape {
+    background-color: #000000;
+    color: white;
+
+    width: 100%;
+    padding: 2em;
+}
+
+.rodape a{
+    color: white;
+}
+
+.rodape_contato--item {
+    margin: 30px;
+}
+
+.rodape_contato--item img {
+    width: 30%;
+
+    list-style: none;
+    font-weight: bold;
+}
+
